@@ -60,8 +60,6 @@ displayButtons();
 btnContainer.addEventListener("click", (e) => {
   const btnTarget = e.target;
 
-  // si le bouton a pour texte all, appeler la fonction avec filteredProducts
-  // si non filtrer les objets égale à la compagnie noms boutons
   if (btnTarget.textContent.toLowerCase() === "all") {
     displayProducts(products);
   } else {
